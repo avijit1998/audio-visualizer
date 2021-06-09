@@ -15,4 +15,6 @@ app.post('/', upload.single('file-to-upload'), (req, res) => {
   res.redirect('/');
 });
 
-app.listen(3000);
+app.listen(3000, function() {
+  console.log("Listening port 3000: http://localhost:3000");
+});
