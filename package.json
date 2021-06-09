@@ -1,7 +1,7 @@
 {
-  "name": "app",
+  "name": "audio-visualizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "App to take audio and generate video based on it.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "multer":"^1.4.2"
+    "multer": "^1.4.2"
   },
   "bugs": {
     "url": "https://github.com/avijit1998/audio-visualizer/issues"
